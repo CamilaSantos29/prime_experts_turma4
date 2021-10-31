@@ -5,4 +5,10 @@ Cenario: entendendo como o robot funciona por linha de comando
 
 Cenario: rodando mais de um teste
         Log To Console  \n Executei mais um teste galera !!!\n
-        
+
+Cenario: recebendo um valor pelo terminal
+       [Tags]   recebendo_valor
+       Log To Console  \n\Olá ${valor_do_terminal}!!!\n
+
+       
+
